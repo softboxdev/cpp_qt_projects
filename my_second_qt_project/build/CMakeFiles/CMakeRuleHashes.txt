@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+6398ba5ef2b449b63357e02d40593864 CMakeFiles/MySecondQtProject_autogen
+6398ba5ef2b449b63357e02d40593864 CMakeFiles/MySecondQtProject_autogen_timestamp_deps
+458587c8436182964d02d836b50ad808 MySecondQtProject_autogen/timestamp

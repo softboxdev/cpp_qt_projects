@@ -1,0 +1,5 @@
+/home/administrator/my_second_qt_project/build/CMakeFiles/MySecondQtProject.dir
+/home/administrator/my_second_qt_project/build/CMakeFiles/edit_cache.dir
+/home/administrator/my_second_qt_project/build/CMakeFiles/rebuild_cache.dir
+/home/administrator/my_second_qt_project/build/CMakeFiles/MySecondQtProject_autogen_timestamp_deps.dir
+/home/administrator/my_second_qt_project/build/CMakeFiles/MySecondQtProject_autogen.dir

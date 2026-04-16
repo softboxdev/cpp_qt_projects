@@ -1,0 +1,5 @@
+/home/administrator/binary_tree/build/CMakeFiles/BinaryTree.dir
+/home/administrator/binary_tree/build/CMakeFiles/edit_cache.dir
+/home/administrator/binary_tree/build/CMakeFiles/rebuild_cache.dir
+/home/administrator/binary_tree/build/CMakeFiles/BinaryTree_autogen_timestamp_deps.dir
+/home/administrator/binary_tree/build/CMakeFiles/BinaryTree_autogen.dir

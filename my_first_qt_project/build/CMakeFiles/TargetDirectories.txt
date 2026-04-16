@@ -1,0 +1,5 @@
+/home/administrator/my_first_qt_project/build/CMakeFiles/MyFirstQtProject.dir
+/home/administrator/my_first_qt_project/build/CMakeFiles/edit_cache.dir
+/home/administrator/my_first_qt_project/build/CMakeFiles/rebuild_cache.dir
+/home/administrator/my_first_qt_project/build/CMakeFiles/MyFirstQtProject_autogen_timestamp_deps.dir
+/home/administrator/my_first_qt_project/build/CMakeFiles/MyFirstQtProject_autogen.dir
