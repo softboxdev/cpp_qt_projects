@@ -3,7 +3,7 @@ project(SystemMonitor VERSION 1.0.0)
 
 
 set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_CSS_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_AUTOMOC ON)
 
 find_package(Qt5 REQUIRED COMPONENTS Core Network Widgets Charts)

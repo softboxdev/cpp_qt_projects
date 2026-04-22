@@ -1,6 +1,7 @@
 # gui/CMakeLists.txt
 
 set(GUI_SOURCES
+    main.cpp
     gui.cpp
 )
 

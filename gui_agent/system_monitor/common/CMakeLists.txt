@@ -1,24 +1,35 @@
-set(AGENT_SOURCES main.cpp agent.cpp)
-set(AGENT_HEADERS agent.h)
+# common/CMakeLists.txt
 
-add_executable(system_agent ${AGENT_SOURCES} ${AGENT_HEADERS})
+# Создаём статическую библиотеку из общих файлов
+set(COMMON_SOURCES
+    protocol.cpp
+)
 
-target_include_directories(system_agent
+set(COMMON_HEADERS
+    protocol.h
+)
+
+add_library(common STATIC ${COMMON_SOURCES} ${COMMON_HEADERS})
+
+# Указываем include директории
+target_include_directories(common 
+    PUBLIC 
+        ${CMAKE_CURRENT_SOURCE_DIR}
     PRIVATE
-         ${CMAKE_CURRENT_SOURCE_DIR}
-         ${CMAKE_SOURCE_DIR}/common
+        ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
-target_link_libraries(system_agent
-    common
+# Подключаем QtCore для QDataStream
+target_link_libraries(common
     Qt5::Core
-    Qt5::Network
 )
 
-set_target_properties(system_agent PROPERTIES
+# Указываем, что библиотека common нужна для MOC
+set_target_properties(common PROPERTIES
     AUTOMOC ON
     AUTOUIC OFF
     AUTORCC OFF
 )
 
-target_compile_definitions(system_agent PRIVATE QT_CORE_LIB)
+# Устанавливаем версию C++ для библиотеки
+target_compile_features(common PUBLIC cxx_std_11)
