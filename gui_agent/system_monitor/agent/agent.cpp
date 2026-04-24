@@ -131,7 +131,7 @@ Metrics Agent::collectMetrics()
             QString line = stream.readLine();
             if (line.startsWith("MemTotal:")) {
                 memTotal = line.split(' ', Qt::SkipEmptyParts)[1].toULongLong();
-            } else if (line.startsWith("MemAvailable:")) {  // ← ИСПРАВЛЕНО: startsWith (было startsWih)
+            } else if (line.startsWith("MemAvailable:")) {  // ← ИСПРАВЛЕН
                 memAvailable = line.split(' ', Qt::SkipEmptyParts)[1].toULongLong();
             }
         }
@@ -151,7 +151,7 @@ Metrics Agent::collectMetrics()
         while (!stream.atEnd()) {
             QString line = stream.readLine();
             if (line.contains("eth") || line.contains("enp") || line.contains("wlan")) {
-                QStringList parts = line.split(' ', Qt::SkipEmptyParts);  // ← ИСПРАВЛЕНО: QStringList (было QStringLists)
+                QStringList parts = line.split(' ', Qt::SkipEmptyParts);  // ← ИСПРАВЛЕНО
                 if (parts.size() >= 10) {
                     totalRx += parts[1].toULongLong();
                     totalTx += parts[9].toULongLong();

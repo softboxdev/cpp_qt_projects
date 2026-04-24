@@ -1,0 +1,87 @@
+{
+	"BUILD_DIR" : "/home/administrator/Desktop/projects/gui_agent/system_monitor/build/agent/system_agent_autogen",
+	"CMAKE_BINARY_DIR" : "/home/administrator/Desktop/projects/gui_agent/system_monitor/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/administrator/Desktop/projects/gui_agent/system_monitor/build/agent",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/administrator/Desktop/projects/gui_agent/system_monitor/agent",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/administrator/Desktop/projects/gui_agent/system_monitor/agent/CMakeLists.txt"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/administrator/Desktop/projects/gui_agent/system_monitor",
+	"DEP_FILE" : "/home/administrator/Desktop/projects/gui_agent/system_monitor/build/agent/system_agent_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "system_agent_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/home/administrator/Desktop/projects/gui_agent/system_monitor/agent/agent.h",
+			"Mu",
+			"EWIEGA46WW/moc_agent.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/administrator/Desktop/projects/gui_agent/system_monitor/build/agent/system_agent_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/administrator/Desktop/projects/gui_agent/system_monitor/build/agent/system_agent_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_NETWORK_LIB", "QT_NO_DEBUG" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/administrator/Desktop/projects/gui_agent/system_monitor/agent",
+		"/home/administrator/Desktop/projects/gui_agent/system_monitor/common",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt5/QtNetwork",
+		"/usr/include/c++/13",
+		"/usr/include/x86_64-linux-gnu/c++/13",
+		"/usr/include/c++/13/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/13/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-std=gnu++11",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/administrator/Desktop/projects/gui_agent/system_monitor/build/agent/system_agent_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 1,
+	"PARSE_CACHE_FILE" : "/home/administrator/Desktop/projects/gui_agent/system_monitor/build/agent/CMakeFiles/system_agent_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/administrator/Desktop/projects/gui_agent/system_monitor/build/agent/CMakeFiles/system_agent_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/administrator/Desktop/projects/gui_agent/system_monitor/agent/agent.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/administrator/Desktop/projects/gui_agent/system_monitor/agent/main.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}
