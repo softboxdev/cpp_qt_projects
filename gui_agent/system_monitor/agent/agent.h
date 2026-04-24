@@ -6,6 +6,8 @@
 #include <QLocalSocket> // class for client connection to the local server
 
 #include <QTimer> // 
+#include "../common/protocol.h"
+#include <QCoreApplication>
 
 class Agent : public QObject
 {
@@ -21,7 +23,7 @@ private slots:
     void onCollectMetrics();
     void onClientDisconnected();
 private:
-	void SendMetrics(QLocalSocket* client);
+	void sendMetrics(QLocalSocket* client);
 	Metrics collectMetrics(); // collect from filedescriptor /proc
 
 	QLocalServer* m_server;

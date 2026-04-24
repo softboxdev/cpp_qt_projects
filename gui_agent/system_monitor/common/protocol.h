@@ -10,6 +10,7 @@ struct Metrics {
 	double ramPercent = 0.0;
 	quint64 rxBytes = 0;
 	quint64 txBytes = 0;
+	quint64 timestamp = 0;
 	// serializtion
 	friend QDataStream& operator<<(QDataStream& stream, const Metrics& m){
 		stream << m.cpuPercent << m.ramPercent << m.rxBytes << m.txBytes << m.timestamp;
